@@ -1,0 +1,13 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    grid-gap: 1rem;
+    width: 100%;
+    .item {
+        background-color: red;
+        height: 5rem;
+    }
+    .item5 {
+        grid-column: span 2;
+    }
+}
